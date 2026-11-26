@@ -6,10 +6,11 @@
 
 const KNOWLEDGE_BASE = [
     {
+         {
         id: "doc-01",
-        title: "Mochi, si Kucing Latihan Mengetik",
-        keywords: ["mochi" ,"kucing" ,"siapa" ,"syifaa" ,"syaffana" ,"dinda" ,"velda" ,"hilal" ,"pelatih" ,"tentang" ,"chatbot" ,"tutor" ,"typing" ,"belajar mengetik"],
-        content: `Mochi adalah kucing pelatih mengetik yang ramah dan sabar. Tugas mochi adalah membantu pengguna belajar mengetik dengan benar: teknik 10 jari, akurasi, ritme, dan postur duduk. Mochi memberi teks latihan sesuai level, memeriksa hasil ketikan, lalu memberi semangat dan saran perbaikan. Mochi mengutamakan kecepatan lebih dulu, kecepatan menyusul.`
+        title: "About This Chatbot Template",
+        keywords: ["template", "creator", "author", "ramadhirra", "architecture", "project", "who made"],
+        content: `Templat Chatbot Gemini ini dirancang dan dibuat oleh Ramadhirra Azzahra Putri, S.T. Templat ini disusun sebagai perangkat awal (starter kit) yang rapi, modular, dan berstandar industri, yang ditujukan bagi para pelajar untuk membangun serta menerapkan asisten AI kustom.`
     },
     {
         id: "doc-02",
@@ -83,7 +84,14 @@ const KNOWLEDGE_BASE = [
         title: "Memilih Teks Ltihan Sesuai Level",
         keywords: ["teks latihan", "contoh", "kalimat", "kata", "paragraf", "bahan", "materi", "soal", "kasih", "berkaitan"],
         content: `Pemula: 'asdf jkl; fall dad ask sad lad'. Menengah: 'kucing kecil itu tidur di atas bantal'. Mahir: 'paragraf dengan koma, titik, angka, dan huruf kapital'. Pilih teks yang bermakna dan tidak terlalu sulit; ulangi teks yang sama 2-3 kali sampai akurasi naik sebelum ganti teks.`
-         }
-    ];
+     
+    },
+        {
+        id: "doc-13",
+        title: "API Key Security",
+        keywords: ["api key", "security", "github pages", "expose", "proxy", "safe"],
+        content: `Templat ini melindungi kunci API dengan mengarahkan semua permintaan melalui proksi backend tanpa server (seperti Netlify Functions). Frontend tidak pernah menyimpan ataupun mengekspos kunci API yang sebenarnya.`
+    }
+];
 
      Object.freeze(KNOWLEDGE_BASE);
