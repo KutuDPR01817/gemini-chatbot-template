@@ -48,7 +48,7 @@ const BOT_CONFIG = {
     // PROXY_URL forces the app to route requests through your Netlify backend
     authMode: "PROXY_URL", 
     // Replace this with your actual Netlify function URL once deployed
-    proxyEndpoint: "https://typingtutorchatbot.netlify.app/.netlify/functions/gemini-proxy", 
+    proxyEndpoint: "typingtutorbot.netlify.app", 
     modelName: "gemini-3.5-flash-lite",
 
     // ------------------------------------------------------------------------
